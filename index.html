@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regresión Logística - Segundo Año</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar principal -->
+    <header class="navbar">
+        <h1>DHC Health Analytics</h1>
+        <h2>- PRODUCTOS -</h2>
+    </header>
+
+    <!-- Barra de navegación con enlaces -->
+    <nav>
+        <a href="#" onclick="showContent('HOSPITALES')">hospitales</a>
+        <a href="#" onclick="showContent('PAGADORES')">pagadores</a>
+        <a href="#" onclick="showContent('PHARMA')">pharma</a>
+        <a href="#" onclick="showContent('OTROS')">otros</a>
+        
+    </nav>
+
+    <!-- Contenido -->
+    <section class="content">
+        <div class="hidden-content" id="hospitales">
+            <h3>HOSPITALES</h3>
+            <ul>
+                <li><a href="PRODUCTOS/DHC_apertura.docx" target="_blank">APERTURA</a></li> 
+                <li><a href="PRODUCTOS/DHC_adm.docx" target="_blank">ADMINISTRACION</a></li>
+                <li><a href="PRODUCTOS/DHC_estadistica.docx" target="_blank">ESTADISTICA</a></li>
+                <li><a href="PRODUCTOS/DHC_Internacion.docx" target="_blank">INTERNACION</a></li>
+                <li><a href="PRODUCTOS/DHC_procesos.docx" target="_blank">PROCESOS</a></li>
+                <li><a href="PRODUCTOS/DHC_seguidad.docx" target="_blank">SEGURIDAD</a></li>
+            </ul>
+        </div>
+        <div class="hidden-content" id="pagadores">
+            <h3>PAGADORES</h3>
+            <ul>
+                <li><a href="PRODUCTOS/DHC_oportunidades.docx" target="_blank">OPORTUNIDADES</a></li> 
+            </ul>
+        </div>
+        <div class="hidden-content" id="pharma">
+            <h3>PHARMA</h3>
+            <ul>
+                <li><a href="PRODUCTOS/DHC_pdf.docx" target="_blank">APP</a></li> 
+            </ul>
+        </div>
+        <div class="hidden-content" id="otros">
+            <h3>OTROS</h3>
+            <ul>
+                <li>ACA IRIA AUDITORES x ejemplo</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
