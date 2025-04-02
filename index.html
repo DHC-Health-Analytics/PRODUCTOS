@@ -7,21 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
 
     <!-- Navbar principal -->
     <header class="navbar">
         <h1>DHC Health Analytics</h1>
         <h2>- PRODUCTOS -</h2>
+        <nav>
+            <button onclick="showContent('hospitales')">Hospitales</button>
+            <button onclick="showContent('pagadores')">Pagadores</button>
+            <button onclick="showContent('pharma')">Pharma</button>
+            <button onclick="showContent('otros')">Otros</button>
+        </nav>
     </header>
-
-    <!-- Barra de navegación con enlaces -->
-    <nav>
-        <a href="#" onclick="showContent('hospitales')">hospitales</a>
-        <a href="#" onclick="showContent('pagadores')">pagadores</a>
-        <a href="#" onclick="showContent('pharma')">pharma</a>
-        <a href="#" onclick="showContent('otros')">otros</a>
-        
-    </nav>
+    
 
     <!-- Contenido -->
     <section class="content">
